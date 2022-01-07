@@ -11,7 +11,7 @@ vim.wo.number = true
 vim.wo.relativenumber = true
 
 -- 高亮所在行
---vim.wo.cursorline = true
+vim.wo.cursorline = true
 
 -- 显示左侧图标指示列
 vim.wo.signcolumn = "yes"
@@ -41,13 +41,13 @@ vim.o.ignorecase = true
 vim.o.smartcase = true
 
 -- 搜索不要高亮
--- vim.o.hlsearch = false
+vim.o.hlsearch = false
 -- 边输入边搜索
 vim.o.incsearch = true
 -- 使用增强状态栏后不再需要 vim 的模式提示
 vim.o.showmode = false
 -- 命令行高为2，提供足够的显示空间
---vim.o.cmdheight = 2
+-- vim.o.cmdheight = 2
 
 -- 当文件被外部程序修改时，自动加载
 vim.o.autoread = true
@@ -100,3 +100,6 @@ vim.o.pumheight = 10
 
 -- always show tabline
 vim.o.showtabline = 2-- utf8
+
+
+--coc相关

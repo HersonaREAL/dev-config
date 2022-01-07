@@ -1,0 +1,10 @@
+{
+    "coc.preferences.extensionUpdateCheck": "daily",
+    "suggest.noselect": true, 
+    "suggest.enablePreselect": false,
+    "codeLens.enable": true,
+    "coc.preferences.formatOnSaveFiletypes": [
+        json
+        cpp
+    ],
+}
