@@ -44,7 +44,7 @@ map("l", "<C-j>", "<Esc>", opt)
 map("t", "<C-j>", "<Esc>", opt)
 
 --plugs
-map('n', '<F1>', ':NvimTreeToggle<CR>', opt)
+map('n', '<F2>', ':NvimTreeToggle<CR>', opt)
 -- bufferline 左右Tab切换
 map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
 map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
