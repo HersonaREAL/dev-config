@@ -31,7 +31,8 @@ let g:coc_global_extensions = [
     \'coc-yaml',
     \'coc-java',
     \'coc-tsserver',
-    \'coc-snippets'
+    \'coc-snippets',
+    \'coc-sh'
 \]
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
