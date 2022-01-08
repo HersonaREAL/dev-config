@@ -34,6 +34,7 @@ let g:coc_global_extensions = [
     \'coc-tsserver',
     \'coc-snippets',
     \'coc-sh'
+    \'coc-markdownlint'
 \]
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
