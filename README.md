@@ -11,29 +11,29 @@
 
 ### 更改过的键位
 1. 常规
-    - <leader> -> 空格
+    - \<leader\> -> 空格
     - H 到行首, K到行尾, Q括号匹配
     - ctrl + j -> ESC
     - ctrl + d -> 9j
     - ctrl + u -> 9k
     - alt + h/j/k/l 窗口之间跳转
-    - <leader>gg 关闭当前buffer
+    - \<leader\>gg 关闭当前buffer
 2. 插件
     - F2 文件树
     - ctrl + p 文件跳转
-    - <leader>a 全局搜索
-    - <leader>j 跳转指定行
+    - \<leader\>a 全局搜索
+    - \<leader\>j 跳转指定行
     - s + 字母 根据指示跳转光标
     - gb 切换buffer
     - ctrl + h/l 左右buffer切换 
-    - <leader>fb 寻找buffer并切换
+    - \<leader\>fb 寻找buffer并切换
     - ctrl + . 尝试开启补全
     - gd 跳转到定义
     - gy 跳转到类型定义
     - gi 跳转到实现
     - gr 跳转到被引用的地方
-    - <leader>h 查找光标指向符号的帮助
-    - <leader> -/= 查找上一个/下一个补全
+    - \<leader\>h 查找光标指向符号的帮助
+    - \<leader\> -/= 查找上一个/下一个补全
 
 
 
