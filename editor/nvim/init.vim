@@ -33,7 +33,7 @@ let g:coc_global_extensions = [
     \'coc-java',
     \'coc-tsserver',
     \'coc-snippets',
-    \'coc-sh'
+    \'coc-sh',
     \'coc-markdownlint'
 \]
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by

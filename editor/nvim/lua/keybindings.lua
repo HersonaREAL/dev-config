@@ -34,7 +34,7 @@ map("n", "<A-l>", "<C-w>l", opt)
 
 --esc
 map("n", "<C-j>", "<Esc>", opt)
-map("i", "<C-j>", "<Esc>", opt)
+map("i", "jk", "<Esc>", opt)
 map("v", "<C-j>", "<Esc>", opt)
 map("s", "<C-j>", "<Esc>", opt)
 map("x", "<C-j>", "<Esc>", opt)
