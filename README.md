@@ -13,7 +13,7 @@
 1. 常规
     - \<leader\> -> 空格
     - H 到行首, K到行尾, Q括号匹配
-    - ctrl + j -> ESC
+    - 插入模式jk -> ESC
     - ctrl + d -> 9j
     - ctrl + u -> 9k
     - alt + h/j/k/l 窗口之间跳转
