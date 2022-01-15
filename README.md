@@ -3,8 +3,7 @@
 ## neovim
 ### 设置步骤
 1. 首先终端确保可以顺畅连接到外网
-2. 执行`git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
+2. 执行`git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
 3. 进入editor 运行`chmod +x nvim-setup.sh && sudo ./nvim-setup.sh`
 4. 确保nvim的版本>=0.5，运行nvim
 5. 打开nvim, 先无视错误, 然后运行 `:PackerSync`, 有失败则重新打开继续运行
