@@ -13,6 +13,6 @@ sudo apt-get install ripgrep
 curl -sL install-node.vercel.app/lts | bash
 npm install neovim yarn
 
-cp -r ./nvim ~/.config/
+cp -r nvim ~/.config/
 
 
