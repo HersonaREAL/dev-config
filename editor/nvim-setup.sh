@@ -6,9 +6,6 @@ sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get update
 sudo apt-get install neovim
 
-# plug manager
-git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-
 #for ack
 sudo apt-get install ripgrep
 
@@ -16,6 +13,6 @@ sudo apt-get install ripgrep
 curl -sL install-node.vercel.app/lts | bash
 npm install neovim yarn
 
-
+cp -r ./nvim ~/.config/
 
 
