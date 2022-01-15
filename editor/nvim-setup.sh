@@ -14,6 +14,6 @@ sudo apt-get install neovim
 sudo apt-get install ripgrep
 
 #for coc
-curl -sL install-node.vercel.app/lts | bash
+curl -sL install-node.vercel.app/lts | sudo bash
 npm install neovim yarn
 
