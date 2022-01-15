@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# copy config
+rm -rf ~/.config/nvim
+cp -r nvim ~/.config/
+
 #install nvim
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:neovim-ppa/stable
@@ -12,7 +16,4 @@ sudo apt-get install ripgrep
 #for coc
 curl -sL install-node.vercel.app/lts | bash
 npm install neovim yarn
-
-cp -r nvim ~/.config/
-
 
