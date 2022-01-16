@@ -13,6 +13,13 @@ let g:sonokai_style = 'atlantis'
 let g:sonokai_disable_italic_comment = 1
 colorscheme sonokai 
 
+"bgcolor 设置透明背景
+"hi normal guibg=0x0
+"hi EndOfBuffer guibg=0x0
+
+"cursorline
+"hi CursorLineNr guifg=#ffd866
+"hi CursorLine guibg=#696969
 
 "plugs
 lua require('plug-cfg/nvim-tree')
@@ -65,6 +72,9 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
 
 "同符号高亮
 autocmd CursorHold * silent call CocActionAsync('highlight')

@@ -12,6 +12,7 @@ sudo apt-get install neovim
 
 #for ack
 sudo apt-get install ripgrep
+sudo apt-get install ack-grep
 
 #for coc
 curl -sL install-node.vercel.app/lts | sudo bash

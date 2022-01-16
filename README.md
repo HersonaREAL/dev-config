@@ -39,4 +39,6 @@
     - \<leader\> -/= 查找上一个/下一个补全
 
 
-
+## 特别鸣谢
+   - [drbbr](https://github.com/drbbr)
+   - [nagisa12321](https://github.com/Nagisa12321)
