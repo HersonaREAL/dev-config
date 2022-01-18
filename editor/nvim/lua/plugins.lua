@@ -69,7 +69,9 @@ return require('packer').startup(function(use)
           require('Comment').setup()
       end
   }
-  
+    -- cosco.vim
+    use 'lfilho/cosco.vim'
+
   --statusline
   use {
     'nvim-lualine/lualine.nvim',
