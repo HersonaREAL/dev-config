@@ -76,5 +76,5 @@ map("n", "<leader>gg", "<cmd>Bdelete<cr>", opt)
 map("n", "<leader>a", ":Ack!", opt)
 
 --cosco
-map("n", ";;", "<cmd>CommaOrSemiColon<cr>", opt)
-map("i", ";;", "<cmd>CommaOrSemiColon<cr>", opt)
+map("n", "<A-m>", "<cmd>CommaOrSemiColon<cr>", opt)
+map("i", "<A-m>", "<cmd>CommaOrSemiColon<cr>", opt)

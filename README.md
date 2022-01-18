@@ -39,7 +39,7 @@
     - \<leader\> -/= 查找上一个/下一个补全
     - \<leader\> fg/fb 全局搜索/查找buffer
     - \<leader\> -/= 查找上一个/下一个提醒(比如错误提示)
-    - 普通模式和插入模式双击分号自动补分号
+    - 普通模式和插入模式alt + m自动补分号
 
 ## 特别鸣谢
    - [drbbr](https://github.com/drbbr)
