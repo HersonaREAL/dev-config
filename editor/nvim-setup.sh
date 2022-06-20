@@ -29,7 +29,7 @@ if [ -x "$(command -v pacman)" ]; then
 fi
 
 if [ -x "$(command -v apt)" ]; then
-    echo 'This is an debian linux!'
+    echo 'This is a debian linux!'
     #install nvim
     sudo apt-get install software-properties-common
     sudo add-apt-repository ppa:neovim-ppa/stable
