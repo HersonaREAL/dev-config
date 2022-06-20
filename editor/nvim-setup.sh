@@ -4,8 +4,20 @@
 rm -rf ~/.config/nvim
 cp -r nvim ~/.config/
 
+if [ -x "$(command -v brew)" ]; then
+    echo 'This is an OSX!'
+    #insall nvim 
+    brew install neovim
+
+    #for coc
+    #curl -sL install-node.vercel.app/lts | sudo bash
+    brew install node
+    brew install yarn
+    exit 0;
+fi
+
 if [ -x "$(command -v pacman)" ]; then
-    echo 'This is an arch linux!'
+    echo 'This is an arch linux (b.t.w) :)!'
     #install nvim
     sudo pacman -Sy neovim ripgrep ack python-pip
     pip3 install neovim
